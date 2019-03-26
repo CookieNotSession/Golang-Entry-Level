@@ -11,7 +11,7 @@ hello.go
 2. import a Package called  **fmt**
 3. **fmt**: implements formatted I/O with functions analogous to C's **printf and scanf.**
 
-```go=
+```go
 package main
 
 import (
@@ -29,7 +29,7 @@ go run hello.go
 sum.go
 ---
 1. variable statement : var ? type = ?
-```go=
+```go
 package main
 
 import (
@@ -43,7 +43,7 @@ func main() {
   fmt.Println(sum)
 }
 ```
-```go=
+```go
 package main
 
 import (
@@ -64,7 +64,7 @@ func main() {
 sum-assign.go
 ---
 1. change to := assign
-```go=
+```go
 package main
 
 import (
